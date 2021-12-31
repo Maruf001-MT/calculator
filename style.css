@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #E6E9EB;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+:root{
+  --gradient-color1: linear-gradient(120deg, #cc2b5e, #753a88);
+  --gradient-color2: linear-gradient(120deg, #ed4264, #ffedbc);
+  --gradient-color3: linear-gradient(120deg, #02aab0 , #00cdac);
+  --white-color: white;
+  --black-color: #2b2b2b;
+  --grey-color: rgb(241, 239, 239)
+}
+.value{
+  width:260px;
+ height:120px;
+ border: none;
+ font-size:40px;
+ background-image: var(--gradient-color2);
+ letter-spacing:1px;
+ text-align:right;
+ font-family: 'Montserrat', sans-serif;
+}
+.display{
+
+}
+table{
+  border: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.th{
+  background: var(--white-color);
+  color:var(--black-color);
+  width:65px;
+  height:65px;
+  font-size:1.2rem;
+  cursor: pointer;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+.c{
+   background: var(--grey-color);
+   font-size:1.3rem;
+}
+.minuus{
+  background: var(--grey-color);
+  font-size:2rem;
+}
+.into{
+  background: var(--grey-color);
+  font-size:2rem;
+}.devide{
+  background: var(--grey-color);
+  font-size:2rem;
+}.plus{
+  background: var(--grey-color);
+  font-size:2rem;
+}
+.equal{
+  background-image:var(--gradient-color2);
+  color:var(--black-color);
+}
+
+.th:hover{
+  background-color:#fcd7d5;
+  color:black;
+}
+.full-container{
+  /* padding: 10px; */
+  position: absolute;
+  box-shadow: 0px 0px 8px grey;
+  border-radius: 10px;
+  background: var(--white-color);
+}
